@@ -61,8 +61,8 @@ fun MainScreen() {
     }
 
     LaunchedEffect(Unit) {
-        // wsClient.connect("ws://10.0.2.2:8080/chat") // 10.0.2.2 for Android emulator
-        wsClient.connect("https://4378264ce69b.ngrok-free.app/chat") // 10.0.2.2 for Android emulator
+        // wsClient.connect("ws://10.0.2.2:8080/chat")                        // for Android emulator
+        wsClient.connect("https://4378264ce69b.ngrok-free.app/chat")    // for remote device
     }
 
     Scaffold(
